@@ -2,6 +2,7 @@ let username = prompt("Enter your name:")
 let myTitle = document.getElementById("title")
 let count = 0
 
+// Проверяем ввел ли пользователь свое имя
 if(username) {
     myTitle.innerHTML = "To Do List for " + username
 } else {
